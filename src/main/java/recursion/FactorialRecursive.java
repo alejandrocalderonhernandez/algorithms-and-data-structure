@@ -7,7 +7,7 @@ public class FactorialRecursive {
     }
 }
 
-//Example n! = n * (n - 1) -> 4! = 1 * 2 * 3 * 4 = 24
+//example n! = n * (n - 1) -> 4! = 1 * 2 * 3 * 4 = 24
 class Factorial {
     public int getFactorial(int toFactorial) {
         if(toFactorial != 0) {
