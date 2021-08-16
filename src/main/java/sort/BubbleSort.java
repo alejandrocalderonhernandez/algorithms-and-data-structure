@@ -7,10 +7,10 @@ public class BubbleSort {
     public static void main(String[] args) {
         Bubble b = new Bubble();
         int[] array = MyUtils.getArray();
-        System.out.println("Before ort");
+        System.out.println("Before sort");
         MyUtils.printArray(array);
         int[] arraySorted = b.sort(array);
-        System.out.println("Sort");
+        System.out.println("After sort");
         MyUtils.printArray(arraySorted);
     }
 }
